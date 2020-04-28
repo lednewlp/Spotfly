@@ -1,0 +1,15 @@
+@import "react-bulma-components/src/index.sass";
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: $dark;
+}
+
+
+// #root {
+//   background-image: image_url('darkdrums.jpg')
+//   background-position:center;
+//   background-size: cover;
+// }
