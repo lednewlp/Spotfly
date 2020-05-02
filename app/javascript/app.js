@@ -13,6 +13,6 @@ const App = () => {
         <Routes/>
       </BrowserRouter>
     </Fragment>
-  )
+  );
 }
 export default App;
