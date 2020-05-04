@@ -41,7 +41,7 @@ const Musics = (props) => {
       AudioRef.current.pause();
       AudioRef.current.load();
       if(playing.id) {
-        AudioRef.current.play();
+        AudioRef.current.play();      
         RecentlyHeardsService.create(playing.album_id);
       }
     }

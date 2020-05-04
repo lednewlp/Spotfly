@@ -7,7 +7,7 @@ const Favorite = (props) => {
 
   let FavoredButton;
   if(favored)
-    FavoredButton = <FaHeart size='25px' className='has-text-danger' onClick={() => disfavor()}/>
+    FavoredButton = <FaHeart size='25px' className='has-text-info' onClick={() => disfavor()}/>
   else
     FavoredButton = <FaRegHeart size='25px' className='has-text-white' onClick={() => favor()}/>
 

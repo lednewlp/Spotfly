@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { Heading, Columns } from 'react-bulma-components';
 import styled from 'styled-components'
-import { FaPlayCircle, FaStopCircle } from "react-icons/fa";
+import { FaPlayCircle, FaStopCircle, } from "react-icons/fa";
 import Favorite from '../../common/favorite';
 
 
@@ -21,6 +21,8 @@ const Music = (props) => {
   } else {
     PlayingButton = <FaPlayCircle size='45px' className='has-text-white' onClick={() => props.setPlaying(props.song)}/>
   }
+
+
 
   return (
     <Fragment>
