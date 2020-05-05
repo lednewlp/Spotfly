@@ -24,7 +24,8 @@ gem 'jbuilder', '~> 2.7'
 
 #Devise
 gem 'devise'
-
+gem 'rack-cors'
+gem 'serviceworker-rails'
 # Errors
 #gem 'better_errors', '~> 2.6'
 
