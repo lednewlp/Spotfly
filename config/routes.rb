@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :users
+  devise_for :users, controllers: { registrations: 'registrations' }
   root 'home#index'
 
   concern :favoritable do |options|
@@ -22,6 +22,10 @@ Rails.application.routes.draw do
 
       resources :songs, only: [] do
         concerns :favoritable, favoritable_type: 'Song'
+      end
+
+      resources :artists do
+        concern :favoritable, favoritable_type: 'Artist'
       end
     end
   end
