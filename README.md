@@ -1,24 +1,52 @@
-# README
+# Holofote
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este é um clone do Spotify, que o back-end foi construído usando Ruby on Rails e ReactJS, para tocar música, ver álbuns, artistas, com a possibilidade de você os adicionar como favoritos. 
 
-Things you may want to cover:
+# Tecnologia essencial
 
-* Ruby version
+- Ruby versão 2.6.3
+- Rails versão 6.0.2.2
+- Mecanismo de banco de dados: SQLite 3
 
-* System dependencies
+# Ruby Gems
 
-* Configuration
+```
+gem 'devise'
+gem 'rack-cors'
+gem 'rubocop', '~> 0.82.0'
+gem 'serviceworker-rails'
+```
 
-* Database creation
+# Como usar
 
-* Database initialization
+### 1. Esta é a página inicial.
 
-* How to run the test suite
+![](/home/wendel/Imagens/Captura de tela de 2020-05-06 21-11-26.png)
 
-* Services (job queues, cache servers, search engines, etc.)
+### 2. Se você possui uma conta, faça login ou crie uma, se não tiver.
 
-* Deployment instructions
+![](/home/wendel/Imagens/Captura de tela de 2020-05-06 21-11-48.png)
 
-* ...
+### 3. Esta é a página de descoberta, você pode navegar por toda a aplicação agora.
+
+![](/home/wendel/Imagens/Captura de tela de 2020-05-06 21-11-56.png)
+
+### 4. Esta é a página de favoritos. Aqui você pode criar uma lista de reprodução e ver suas músicas, álbuns, artistas favoritos.
+
+![](/home/wendel/Imagens/Captura de tela de 2020-05-06 21-12-13.png)
+
+### 5. álbuns.
+
+![](/home/wendel/Imagens/Captura de tela de 2020-05-06 21-14-51.png)
+
+### 6. Músicas.
+
+### ![](/home/wendel/Imagens/Captura de tela de 2020-05-06 21-16-09.png)
+
+### 8. Página do artista.
+
+![](/home/wendel/Imagens/Captura de tela de 2020-05-06 21-18-02.png)
+
+### 9. Página de pesquisa.
+
+![](/home/wendel/Imagens/Captura de tela de 2020-05-06 21-12-01.png)

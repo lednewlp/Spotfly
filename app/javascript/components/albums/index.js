@@ -39,7 +39,7 @@ const Albums = () => {
             <Columns.Column desktop={{ size: 2}}>
                <Favorite id={album.id} kind='albums' favored={album.favorite}/>
             </Columns.Column>
-          </Columns>  
+          </Columns>
          </DivVSpaced>
        </Columns.Column>
      </Columns>

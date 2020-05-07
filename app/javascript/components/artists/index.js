@@ -49,7 +49,7 @@ const Artists = () => {
             </Columns.Column>
 
             <Columns.Column desktop={{size: 2}}>
-              <Favorite id={artist.id} kind='artists' favored={favorite}/>
+              <Favorite id={artist.id} kind='artists' favored={artist.favorite}/>
             </Columns.Column>
           </Columns>
        </DivVSpaced>

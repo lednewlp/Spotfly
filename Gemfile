@@ -27,7 +27,7 @@ gem 'devise'
 gem 'rack-cors'
 gem 'serviceworker-rails'
 # Errors
-#gem 'better_errors', '~> 2.6'
+gem 'better_errors', '~> 2.6'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
