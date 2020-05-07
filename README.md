@@ -20,7 +20,7 @@ gem 'serviceworker-rails'
 # Como usar
 
 ### 1. Esta é a página inicial.
-[alt tag](/home/wendel/Imagens/Captura de tela de 2020-05-06 21-11-26.png)
+https://photos.google.com/photo/AF1QipNJoVXxb3RnizXfXMwA-bSGYfEJLdK9CA8U1otl
 ### 2. Se você possui uma conta, faça login ou crie uma, se não tiver.
 [alt tag](/home/wendel/Imagens/Captura de tela de 2020-05-06 21-11-48.png)
 ### 3. Esta é a página de descoberta, você pode navegar por toda a aplicação agora. 
