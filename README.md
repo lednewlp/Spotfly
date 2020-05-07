@@ -13,6 +13,5 @@ Este é um clone do Spotify, que o back-end foi construído usando Ruby on Rails
 ```
 gem 'devise'
 gem 'rack-cors'
-gem 'rubocop', '~> 0.82.0'
 gem 'serviceworker-rails'
 ```
